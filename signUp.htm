@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font's API -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- Bootstarp Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Site Page-wise Title -->
     <title>Html - Sign up</title>
 </head>
+
 <body>
-    
+    <!-- Main Container Starts -->
+    <div class="container">
+        <!-- Main Row Starts -->
+        <div class="row main-tranparent">
+            <!-- Column-01 Starts -->
+            <div class="col-md-6">
+                <div class="text-center">
+                    <!-- Logo Image -->
+                    <img class="justify-content-center" src="./assets/images/logo.jpg" alt="">
+                    <!-- Logo Image -->
+                    <h6 class="p-2 mt-2 start-heading">Sign up to this platform</h6>
+                </div>
+                <div class="mt-4 ml-2">
+                    <label class="label-colors" for="name">Name</label>
+                    <br>
+                    <input class="input-text" type="text" name="name" id="name" value="Type your name">
+                </div>
+                <div class="mt-4 ml-2">
+                    <label class="label-colors" for="email">Email</label>
+                    <br>
+                    <input class="input-text" type="text" name="email" id="email" value="Type your email">
+                </div>
+                <div class="mt-4 ml-2">
+                    <label class="label-colors" for="password">Password</label>
+                    <br>
+                    <input class="input-text" type="text" name="password" id="password" value="Type your password">
+                </div>
+                <div class="input-text">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label class="label-colors" for="remember"> I agree with 
+                        <a href="#">terms and conditions</a>
+                        of Site
+                    </label>
+                </div>
+                <div class="mt-4">
+                    <Button class="btn btn-rounded btn-color">Sign up</Button>
+                </div>
+                <div class="mt-4 another-link text-center font-size-10">
+                    Already have an account? 
+                    <a href="signIn.htm">
+                        Sign in
+                    </a>
+                </div>
+            </div>
+            <!-- Column-01 Ends -->
+
+            <!-- Column-02 Starts -->
+            <div class="col-md-6 custom-padding">
+                <div class="custom-div">Welcome to HTML Samples</div>
+                <div class="custom-headings">
+                    <b>HTML Samples UI/UX</b>
+                </div>
+                <div class="custom-div">Powered by ElyxiumTech Solutions</div>
+            </div>
+            <!-- Column-02 Ends -->
+        </div>
+        <!-- Main Row Ends -->
+    </div>
+    <!-- Main Container Ends -->
 </body>
 </html>
