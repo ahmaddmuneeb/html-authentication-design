@@ -76,10 +76,10 @@
       transform: translate(-100deg) scaleX(-15deg);
   }
 
-  button:hover {
+  /* button:hover {
       background: #6882E7;
       cursor: pointer;
-  }
+  } */
   
   button:hover:before {
     transform: translateX(300px) scaleX(-15deg);
@@ -91,4 +91,16 @@
     transform: translateX(300px) scaleX(-15deg);
     opacity: 1;
     transition: .7s;
+  }
+
+  .main-heading {
+    padding-top: 6px;
+    margin-top: 8px;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .navbar-bg {
+    background: linear-gradient(to left, #E5E9F2 0%, #E5E9F2 50%, #E5E9F2 50%, #E5E9F2 100%);
   }
